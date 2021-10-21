@@ -1,0 +1,889 @@
+Processing urls:  13%|█▎        | 337/2601 [25:07<2:14:40,  3.57s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  13%|█▎        | 338/2601 [25:09<1:57:35,  3.12s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  13%|█▎        | 339/2601 [25:12<1:47:47,  2.86s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  13%|█▎        | 340/2601 [25:14<1:37:46,  2.59s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▎      | 877/2601 [1:08:02<1:48:13,  3.77s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 878/2601 [1:08:07<2:00:23,  4.19s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 879/2601 [1:08:12<2:07:43,  4.45s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 880/2601 [1:08:16<2:05:21,  4.37s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 881/2601 [1:08:21<2:05:09,  4.37s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 882/2601 [1:08:24<1:53:01,  3.94s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 883/2601 [1:08:26<1:42:24,  3.58s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 884/2601 [1:08:30<1:40:02,  3.50s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  34%|███▍      | 885/2601 [1:08:34<1:46:29,  3.72s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|████▉     | 1296/2601 [1:57:04<1:47:40,  4.95s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 174, in crawl_data
+    answer, true_false = option.find_elements_by_xpath('./div')
+ValueError: not enough values to unpack (expected 2, got 0)
+Processing urls:  50%|████▉     | 1297/2601 [1:57:07<1:36:28,  4.44s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|████▉     | 1298/2601 [1:57:11<1:31:28,  4.21s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|████▉     | 1299/2601 [1:57:18<1:52:39,  5.19s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|████▉     | 1300/2601 [1:57:21<1:35:39,  4.41s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1301/2601 [1:57:24<1:29:47,  4.14s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1302/2601 [1:57:27<1:19:06,  3.65s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 174, in crawl_data
+    answer, true_false = option.find_elements_by_xpath('./div')
+ValueError: not enough values to unpack (expected 2, got 0)
+Processing urls:  50%|█████     | 1303/2601 [1:57:29<1:09:34,  3.22s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1307/2601 [1:57:45<1:26:39,  4.02s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 174, in crawl_data
+    answer, true_false = option.find_elements_by_xpath('./div')
+ValueError: not enough values to unpack (expected 2, got 0)
+Processing urls:  50%|█████     | 1308/2601 [1:57:48<1:19:38,  3.70s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 174, in crawl_data
+    answer, true_false = option.find_elements_by_xpath('./div')
+ValueError: not enough values to unpack (expected 2, got 0)
+Processing urls:  50%|█████     | 1309/2601 [1:57:51<1:14:14,  3.45s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1311/2601 [1:57:58<1:14:10,  3.45s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1312/2601 [1:58:02<1:15:07,  3.50s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  50%|█████     | 1313/2601 [1:58:04<1:09:50,  3.25s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 142, in crawl_data
+    self.driver.get(url)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: headless chrome=92.0.4515.159)
+
+Processing urls:  63%|██████▎   | 1647/2601 [2:28:50<1:18:23,  4.93s/it]Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 177, in crawl_data
+    answer = answer.find_element_by_xpath('./span').get_attribute('textContent')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./span"}
+  (Session info: headless chrome=92.0.4515.159)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 206, in execute
+    self.crawl_data(row['url'])
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/main.py", line 186, in crawl_data
+    answer = answer.find_element_by_css_selector('div[role="presentation"]').get_attribute('title')
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/hehehe0803/Desktop/kahoot_scraper_selenium/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role="presentation"]"}
+  (Session info: headless chrome=92.0.4515.159)
+
